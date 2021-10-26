@@ -1,6 +1,6 @@
 # Blog App
 
-<img src="file:///C:/Users/bunty/Downloads/Screenshot%202021-10-26%20233300.png"/>
+<img src="file:///C:/Users/bunty/Downloads/Screenshot%202021-10-26%20233300.png" alt=""/>
 
 ## Introduction
 This WebApp is built using NodeJS, ReactJS, ExpressJS & MongoDB. It is a fully function Blog App with CRUD , JWT Authentication, Like Functionalities.
