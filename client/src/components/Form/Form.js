@@ -3,7 +3,6 @@ import { TextField, Button, Typography, Paper } from "@material-ui/core";
 import { useDispatch, useSelector } from "react-redux";
 import FileBase from "react-file-base64";
 import { useHistory } from "react-router-dom";
-import ChipInput from "material-ui-chip-input";
 
 import { createPost, updatePost } from "../../redux/actions/posts";
 import useStyles from "./styles";
@@ -59,16 +58,16 @@ const Form = ({ currentId, setCurrentId }) => {
     );
   }
 
-  const handleAddChip = (tag) => {
-    setPostData({ ...postData, tags: [...postData.tags, tag] });
-  };
+  // const handleAddChip = (tag) => {
+  //   setPostData({ ...postData, tags: [...postData.tags, tag] });
+  // };
 
-  const handleDeleteChip = (chipToDelete) => {
-    setPostData({
-      ...postData,
-      tags: postData.tags.filter((tag) => tag !== chipToDelete),
-    });
-  };
+  // const handleDeleteChip = (chipToDelete) => {
+  //   setPostData({
+  //     ...postData,
+  //     tags: postData.tags.filter((tag) => tag !== chipToDelete),
+  //   });
+  // };
 
   return (
     <Paper className={classes.paper} elevation={6}>
